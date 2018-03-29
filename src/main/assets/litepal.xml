@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--数据库名-->
+    <dbname value="weather" ></dbname>
+
+    <!--数据库版本号，用于更新数据库-->
+    <version value="1" ></version>
+
+    <!--这里是类映射-->
+    <list>
+        <mapping class="com.sunlayers.simpleweather.model.Province"></mapping>
+        <mapping class="com.sunlayers.simpleweather.model.City"></mapping>
+        <mapping class="com.sunlayers.simpleweather.model.Country"></mapping>
+    </list>
+</litepal>
